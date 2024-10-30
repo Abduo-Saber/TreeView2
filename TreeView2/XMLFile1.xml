@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes"?>
+<TreeViewtestDataSet xmlns="http://tempuri.org/TreeViewtestDataSet.xsd">
+  <xs:schema id="TreeViewtestDataSet" targetNamespace="http://tempuri.org/TreeViewtestDataSet.xsd" xmlns:mstns="http://tempuri.org/TreeViewtestDataSet.xsd" xmlns="http://tempuri.org/TreeViewtestDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="TreeViewtestDataSet" msdata:IsDataSet="true" msdata:MainDataTable="http_x003A__x002F__x002F_tempuri.org_x002F_TreeViewtestDataSet.xsd_x003A_Objects" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Objects">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:int" />
+                <xs:element name="type">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="product">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Objects" />
+        <xs:field xpath="mstns:id" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Objects>
+    <id>103</id>
+    <type>Сборочная единица</type>
+    <product>СЕ.1235.00.00.000</product>
+  </Objects>
+  <Objects>
+    <id>104</id>
+    <type>...</type>
+    <product>...</product>
+  </Objects>
+  <Objects>
+    <id>105</id>
+    <type>....</type>
+    <product>....</product>
+  </Objects>
+  <Objects>
+    <id>108</id>
+    <type>....</type>
+    <product>...</product>
+  </Objects>
+  <Objects>
+    <id>109</id>
+    <type>Деталь</type>
+    <product>СЕ.1235.01.00.001</product>
+  </Objects>
+  <Objects>
+    <id>113</id>
+    <type>Материал по КД</type>
+    <product>Сталь 09Г2С</product>
+  </Objects>
+  <Objects>
+    <id>114</id>
+    <type>....</type>
+    <product>....</product>
+  </Objects>
+  <Objects>
+    <id>115</id>
+    <type>.....</type>
+    <product>.....</product>
+  </Objects>
+  <Objects>
+    <id>116</id>
+    <type>Документ</type>
+    <product>СЕ.1235.01.01.000 ВП</product>
+  </Objects>
+</TreeViewtestDataSet>

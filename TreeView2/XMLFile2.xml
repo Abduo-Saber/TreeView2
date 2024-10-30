@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<TreeViewtestDataSet xmlns="http://tempuri.org/TreeViewtestDataSet.xsd">
+  <xs:schema id="TreeViewtestDataSet" targetNamespace="http://tempuri.org/TreeViewtestDataSet.xsd" xmlns:mstns="http://tempuri.org/TreeViewtestDataSet.xsd" xmlns="http://tempuri.org/TreeViewtestDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="TreeViewtestDataSet" msdata:IsDataSet="true" msdata:MainDataTable="http_x003A__x002F__x002F_tempuri.org_x002F_TreeViewtestDataSet.xsd_x003A_Attributes" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Attributes">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="objectId" type="xs:int" />
+                <xs:element name="name">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="value">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="255" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Attributes" />
+        <xs:field xpath="mstns:objectId" />
+        <xs:field xpath="mstns:name" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Attributes>
+    <objectId>103</objectId>
+    <name>Наименование</name>
+    <value>Фланец</value>
+  </Attributes>
+  <Attributes>
+    <objectId>103</objectId>
+    <name>Раздел спецификации</name>
+    <value>Сборочные единицы</value>
+  </Attributes>
+  <Attributes>
+    <objectId>114</objectId>
+    <name>Наименование</name>
+    <value>Колпак</value>
+  </Attributes>
+  <Attributes>
+    <objectId>115</objectId>
+    <name>Марка материала</name>
+    <value>Сталь 09Г2С</value>
+  </Attributes>
+</TreeViewtestDataSet>

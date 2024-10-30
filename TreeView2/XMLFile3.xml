@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<TreeViewtestDataSet xmlns="http://tempuri.org/TreeViewtestDataSet.xsd">
+  <xs:schema id="TreeViewtestDataSet" targetNamespace="http://tempuri.org/TreeViewtestDataSet.xsd" xmlns:mstns="http://tempuri.org/TreeViewtestDataSet.xsd" xmlns="http://tempuri.org/TreeViewtestDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="TreeViewtestDataSet" msdata:IsDataSet="true" msdata:MainDataTable="http_x003A__x002F__x002F_tempuri.org_x002F_TreeViewtestDataSet.xsd_x003A_Links" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Links">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="parentId" type="xs:int" />
+                <xs:element name="childId" type="xs:int" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Links>
+    <parentId>103</parentId>
+    <childId>104</childId>
+  </Links>
+  <Links>
+    <parentId>104</parentId>
+    <childId>105</childId>
+  </Links>
+  <Links>
+    <parentId>104</parentId>
+    <childId>108</childId>
+  </Links>
+  <Links>
+    <parentId>104</parentId>
+    <childId>109</childId>
+  </Links>
+</TreeViewtestDataSet>
